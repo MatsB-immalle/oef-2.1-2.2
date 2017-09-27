@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label Content="Mats Bos" HorizontalAlignment="Left" Margin="62,68,0,0" VerticalAlignment="Top" Width="88"/>
-        <Label Content="15 jaar" HorizontalAlignment="Left" Margin="62,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.418,0.381" Width="88"/>
+        <Label Content="Mats Bos" HorizontalAlignment="Left" Margin="62,68,0,0" VerticalAlignment="Top" Width="88" Background="Red" FontFamily="Times New Roman"/>
+        <Label Content="15 jaar" HorizontalAlignment="Left" Margin="62,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.418,0.381" Width="88" Background="Red" FontFamily="Times New Roman"/>
 
     </Grid>
 </Window>
