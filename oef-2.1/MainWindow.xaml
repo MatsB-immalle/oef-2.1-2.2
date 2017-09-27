@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label Content="Mats Bos" HorizontalAlignment="Left" Margin="62,68,0,0" VerticalAlignment="Top" Width="88" Background="Red" FontFamily="Times New Roman"/>
-        <Label Content="15 jaar" HorizontalAlignment="Left" Margin="62,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.418,0.381" Width="88" Background="Red" FontFamily="Times New Roman"/>
-
+        <TextBlock x:Name="MijnNaam" HorizontalAlignment="Left" Margin="73,62,0,0" TextWrapping="Wrap" Text="Mats" VerticalAlignment="Top" Height="18" Width="120" FontFamily="Times New Roman" Background="Red"/>
+        <TextBox x:Name="MijnLeeftijd" Height="23" Margin="73,202,0,0" TextWrapping="Wrap" Text="15 jaar" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.489,0.532" FontFamily="Times New Roman" Background="Red" HorizontalAlignment="Left"/>
     </Grid>
 </Window>
