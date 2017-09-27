@@ -23,6 +23,13 @@ namespace oef_2._1
         public MainWindow()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mats.Content = "Mats Bos";
         }
     }
 }
